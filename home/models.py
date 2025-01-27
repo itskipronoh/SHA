@@ -87,6 +87,10 @@ class pcosDisorder(models.Model):
         ('16', 'O-'),
         ('17', 'AB+'),
         ('18', 'AB-'),
+        ('19', 'C'),
+        ('20', 'C-'),
+        ('21', 'D+'),
+
     )
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
